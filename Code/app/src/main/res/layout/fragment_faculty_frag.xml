@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faculty_frag"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="FACULTY"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:background="#05D5FA"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+
+            />
+
+        <ExpandableListView
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+
+            android:layout_height="match_parent"
+            android:id="@+id/expandabledept"
+            android:nestedScrollingEnabled="true"
+            android:background="@color/white"
+            android:outlineAmbientShadowColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>

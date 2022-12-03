@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compareUniAid">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/sv"
+        >
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/uni1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uni1"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#05D5FA"
+                android:textColor="@color/white"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_height="300dp"
+                android:id="@+id/list1"
+                android:nestedScrollingEnabled="true"
+                />
+
+            <TextView
+                android:id="@+id/uni2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uni2"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#05D5FA"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_height="300dp"
+                android:id="@+id/list2"
+                android:nestedScrollingEnabled="true"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageUniMain">
+
+    <Button
+        android:id="@+id/button_department"
+        android:layout_width="200dp"
+        android:layout_height="53dp"
+        android:background="@drawable/signin_bg"
+        android:text="Departments"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_Faculty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <Button
+        android:id="@+id/button_Program"
+        android:layout_width="200dp"
+        android:layout_height="53dp"
+        android:background="@drawable/signin_bg"
+        android:text="Programs"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_Alumini"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Faculty"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/button_Faculty"
+        android:layout_width="200dp"
+        android:layout_height="53dp"
+        android:background="@drawable/signin_bg"
+        android:text="Faculty"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_Program"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_department"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/button_Alumini"
+        android:layout_width="200dp"
+        android:layout_height="53dp"
+        android:background="@drawable/signin_bg"
+        android:text="Alumini"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/edtAid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Program"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/edtUser"
+        android:layout_width="200dp"
+        android:layout_height="53dp"
+        android:background="@drawable/signin_bg"
+        android:text="Edit Account"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Alumini"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <Button
+        android:id="@+id/edtPersonal"
+        android:layout_width="200dp"
+        android:layout_height="53dp"
+        android:background="@drawable/signin_bg"
+        android:text="Edit Personal"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Alumini"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <Button
+        android:id="@+id/edtAid"
+        android:layout_width="200dp"
+        android:layout_height="53dp"
+        android:background="@drawable/signin_bg"
+        android:text="Financial Aid"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/edtUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Alumini"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <Button
+        android:id="@+id/bck"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:background="@drawable/signin_bg"
+        android:text="Back "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPersonal"
+        app:layout_constraintVertical_bias="0.346" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

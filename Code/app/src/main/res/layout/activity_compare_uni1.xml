@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compareUni1">
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="203dp"
+        android:layout_height="56dp"
+        android:background="@drawable/signin_bg"
+        android:clickable="true"
+        android:text="About"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FEFEFE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <Button
+        android:id="@+id/prgms"
+        android:layout_width="203dp"
+        android:layout_height="56dp"
+        android:background="@drawable/signin_bg"
+        android:clickable="true"
+        android:text="Programs"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FEFEFE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <Button
+        android:id="@+id/alumni"
+        android:layout_width="203dp"
+        android:layout_height="56dp"
+        android:background="@drawable/signin_bg"
+        android:clickable="true"
+        android:text="Alumni"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FEFEFE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prgms"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Button
+        android:id="@+id/fee"
+        android:layout_width="203dp"
+        android:layout_height="56dp"
+        android:background="@drawable/signin_bg"
+        android:clickable="true"
+        android:text="Fees"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FEFEFE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alumni"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <Button
+        android:id="@+id/elgb"
+        android:layout_width="203dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/signin_bg"
+        android:clickable="true"
+        android:text="Eligibility"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FEFEFE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fee"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/aid"
+        android:layout_width="203dp"
+        android:layout_height="56dp"
+        android:background="@drawable/signin_bg"
+        android:clickable="true"
+        android:text="Financial Aid"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FEFEFE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elgb"
+        app:layout_constraintVertical_bias="0.189" />
+
+
+    <Button
+        android:id="@+id/review"
+        android:layout_width="203dp"
+        android:layout_height="56dp"
+        android:background="@drawable/signin_bg"
+        android:clickable="true"
+        android:text="Reviews"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FEFEFE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aid"
+        app:layout_constraintVertical_bias="0.339" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

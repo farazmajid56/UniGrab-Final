@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminViewUserProfile">
+
+    <TextView
+        android:id="@+id/uName"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="48dp"
+        android:background="#C9E0F3"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="48dp"
+        android:background="#C9E0F3"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/uName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/uName" />
+
+    <TextView
+        android:id="@+id/fName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Email:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/uid"
+        app:layout_constraintTop_toBottomOf="@+id/uid" />
+
+    <TextView
+        android:id="@+id/lName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Account Type:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/uName"
+        app:layout_constraintTop_toTopOf="@+id/fName" />
+
+    <TextView
+        android:id="@+id/_email"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="60dp"
+        android:background="#C9E0F3"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/fName"
+        app:layout_constraintTop_toBottomOf="@+id/uid" />
+
+    <TextView
+        android:id="@+id/aType"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:background="#C9E0F3"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/uName"
+        app:layout_constraintTop_toTopOf="@+id/_email" />
+
+    <TextView
+        android:id="@+id/Disabled"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="56dp"
+        android:background="#C9E0F3"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/aType"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/_email"
+        app:layout_constraintTop_toBottomOf="@+id/_email" />
+
+    <Button
+        android:id="@+id/_Delete"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/signin_bg"
+        android:backgroundTint="#BF160A"
+        android:text="Delete"
+        app:layout_constraintEnd_toEndOf="@+id/_Disable"
+        app:layout_constraintStart_toStartOf="@+id/_Disable"
+        app:layout_constraintTop_toBottomOf="@+id/_Enable" />
+
+    <Button
+        android:id="@+id/_Enable"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/signin_bg"
+        android:text="Enable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Disabled" />
+
+    <Button
+        android:id="@+id/_Disable"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/signin_bg"
+        android:backgroundTint="#E4B21B"
+        android:text="Disable"
+        app:layout_constraintEnd_toEndOf="@+id/_Enable"
+        app:layout_constraintStart_toStartOf="@+id/_Enable"
+        app:layout_constraintTop_toTopOf="@+id/_Enable" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="User Id:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/uid"
+        app:layout_constraintStart_toStartOf="@+id/uid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Status:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Disabled"
+        app:layout_constraintStart_toStartOf="@+id/Disabled" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="12dp"
+        android:text="Username:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/uName"
+        app:layout_constraintStart_toStartOf="@+id/uName" />
+
+    <TextView
+        android:layout_width="415dp"
+        android:layout_height="71dp"
+        android:background="#468FAF"
+        android:gravity="center"
+        android:text="User Details"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="277dp"
+        android:background="@drawable/homebg"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <AutoCompleteTextView
+            android:id="@+id/autotext"
+            android:layout_width="273dp"
+            android:layout_height="48dp"
+            android:background="@drawable/home_search_bar"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:hint="Search for university"
+            android:inputType="none"
+            android:padding="5dp"
+            android:textColorHint="#5555"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.727"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#aedefc"
+            android:outlineAmbientShadowColor="@color/black"
+            android:text="Search"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/autotext"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/autotext"
+            app:layout_constraintTop_toBottomOf="@+id/autotext"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="344dp"
+            android:layout_height="71dp"
+            android:text="Find the \nPerfect University"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/autotext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.747" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/unis"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/homepage_buttons"
+        android:drawableLeft="@drawable/ic_baseline_school_24"
+        android:padding="5dp"
+        android:paddingRight="10dp"
+        android:text="Universities"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <Button
+        android:id="@+id/eligibility"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/homepage_buttons"
+        android:drawableLeft="@drawable/ic_baseline_calculate_24"
+        android:padding="4dp"
+        android:paddingRight="10dp"
+        android:text="Evaluate\nEligiblity"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/unis"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/homepage_buttons"
+        android:drawableLeft="@drawable/ic_baseline_rate_review_24"
+        android:padding="5dp"
+
+        android:text="Feedback"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eligibility"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/compare"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/homepage_buttons"
+        android:drawableLeft="@drawable/ic_baseline_compare_24"
+        android:padding="4dp"
+        android:paddingRight="10dp"
+        android:text="Compare\nUniversities"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unis"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <Button
+        android:id="@+id/bck"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signin_bg"
+        android:text="Back To Login"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedback"
+        app:layout_constraintVertical_bias="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compareUniAbout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/sv"
+        >
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/uni1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uni1"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#05D5FA"
+                android:textColor="@color/white"
+                />
+
+              <TextView
+                android:id="@+id/ph1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone1"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/email1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email1"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/rank1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ranking1"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/addr1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address1"
+                android:textSize="30dp"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/campuslife1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Campuslife1"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:nestedScrollingEnabled="true"
+                />
+
+            <TextView
+                android:id="@+id/uni2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uni2"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#05D5FA"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                />
+
+            <TextView
+                android:id="@+id/ph2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone2"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                />
+
+            <TextView
+                android:id="@+id/email2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email2"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/rank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ranking2"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/addr2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address2"
+                android:textSize="30dp"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/campuslife2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Campuslife2"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:background="#2AAAC1"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:nestedScrollingEnabled="true"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

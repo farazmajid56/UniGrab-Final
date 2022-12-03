@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlumniPlacement_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Our Proud Alumni"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:background="#05D5FA"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+
+            />
+        <ListView
+            android:id="@+id/alumnilist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+             />
+
+
+    </LinearLayout>
+
+</FrameLayout>

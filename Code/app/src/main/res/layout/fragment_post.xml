@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".postFrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/sv"
+        >
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="vertical"
+            android:layout_gravity="start"
+            tools:context=".uniPageStudent"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ListView
+
+                android:id="@+id/imageslist"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@color/white"
+                android:nestedScrollingEnabled="true"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/textlist"
+                android:background="@color/white"
+                android:nestedScrollingEnabled="true"
+                android:layout_marginTop="40dp"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/videolist"
+                android:background="@color/white"
+                android:nestedScrollingEnabled="true"
+                android:layout_marginTop="40dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

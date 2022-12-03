@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_campus"
+            android:icon="@drawable/campus"
+            android:title="Campus Life"
+            />
+
+        <item android:id="@+id/menu_degree"
+            android:icon="@drawable/degree"
+            android:title="Programs offered"
+            />
+
+        <item android:id="@+id/menu_faculty"
+            android:icon="@drawable/teacher"
+            android:title="Faculty"
+            />
+
+        <item android:id="@+id/menu_alumni"
+            android:icon="@drawable/alumni"
+            android:title="Alumni"
+            />
+
+        <item android:id="@+id/menu_fees"
+            android:icon="@drawable/fees"
+            android:title="Fees"
+            />
+
+        <item android:id="@+id/menu_aid"
+            android:icon="@drawable/scholarship"
+            android:title="Financial Aid"
+            />
+
+        <item android:id="@+id/menu_eligibility"
+            android:icon="@drawable/evaluate"
+            android:title="Evaluate Eligibility"
+            />
+
+        <item android:id="@+id/menu_review"
+            android:icon="@drawable/review"
+            android:title="Write a review"
+            />
+
+        <item android:id="@+id/menu_location"
+            android:icon="@drawable/location"
+            android:title="Location"
+            />
+
+        <item android:id="@+id/menu_post"
+            android:icon="@drawable/post"
+            android:title="Posts"
+            />
+
+
+
+    </group>
+
+
+</menu>

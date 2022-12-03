@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        android:id="@+id/cv"
+        android:descendantFocusability="blocksDescendants"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/unipicture"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_width="wrap_content"
+            android:layout_height="119dp"
+            />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="268dp">
+
+        <TextView
+            android:id="@+id/uniname"
+            android:layout_width="195dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="169dp"
+            android:layout_marginEnd="79dp"
+            android:layout_marginBottom="54dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textSize="20dp"
+
+
+            />
+
+
+    </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
